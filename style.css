@@ -1,0 +1,42 @@
+/* Reset default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Menu bar container */
+.menu-bar {
+    background-color: #333;
+    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+}
+
+/* Menu links */
+.menu-bar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 18px;
+    margin-right: 12px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect */
+.menu-bar a:hover {
+    background-color: #555;
+    border-radius: 5px;
+    transform: translateY(-2px);
+}
+
+/* Optional: active link look */
+.menu-bar a:active {
+    background-color: #777;
+}
