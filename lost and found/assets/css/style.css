@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: #fdf2f8;
+}
+
+a {
+    text-decoration: none;
+}
+
+.user-navbar {
+    background: white;
+    padding: 16px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f3f4f6;
+}
+
+.user-logo {
+    font-size: 18px;
+    font-weight: 600;
+    color: #be185d;
+}
+
+.user-links a {
+    margin-left: 20px;
+    color: #6b7280;
+    font-weight: 500;
+}
+
+.user-links a:hover {
+    color: #be185d;
+}
+
+/* Cards */
+.card {
+    background: white;
+    padding: 18px;
+    border-radius: 18px;
+    box-shadow: 0 10px 22px rgba(0,0,0,0.08);
+}
